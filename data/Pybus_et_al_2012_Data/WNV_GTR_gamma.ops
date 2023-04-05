@@ -1,0 +1,96 @@
+
+Operator analysis
+Operator                                          Tuning   Count      Time     Time/Op  Pr(accept) 
+CP1.gtr.rates                                     0.35    961130     213273   0.22     0.2409      
+CP2.gtr.rates                                     0.638   961219     167309   0.17     0.2417      
+CP3.gtr.rates                                     0.184   963664     1421252  1.47     0.2406      
+CP1.frequencies                                   0.035   963118     329402   0.34     0.2382      
+CP2.frequencies                                   0.05    960756     1492882  1.55     0.2383      
+CP3.frequencies                                   0.036   962394     533819   0.55     0.2381      
+scale(CP1.alpha)                                  0.161   961728     325344   0.34     0.2399      
+scale(CP2.alpha)                                  0.132   960402     273282   0.28     0.2404      
+scale(CP3.alpha)                                  0.302   959939     1529914  1.59     0.239       
+scale(ucld.mean)                                  0.798   2884155    1873923  0.65     0.233       
+scale(ucld.stdev)                                 0.534   2885642    3792748  1.31     0.2353      
+up:nodeHeights(treeModel) down:ucld.mean          0.981   2884601    3510231  1.22     0.2319      
+swapOperator(branchRates.categories)                      9612203    3685938  0.38     0.6813      
+uniformInteger(branchRates.categories)                    9618427    2433498  0.25     0.783       
+allNus                                            0.059   2885026    3509302  1.22     0.2396      
+subtreeSlide(treeModel)                           0.296   28841133   8954830  0.31     0.2333      
+Narrow Exchange(treeModel)                                28850855   9471205  0.33     0.2524      
+Wide Exchange(treeModel)                                  2884219    237717   0.08     0.0059      
+wilsonBalding(treeModel)                                  2882942    751883   0.26     0.014       
+scale(treeModel.rootHeight)                       0.14    2885971    540710   0.19     0.24        
+uniform(nodeHeights(treeModel))                           28848544   15177624 0.53     0.4474      
+scale(skyline.popSize)                            0.214   14423762   5600518  0.39     0.2394      
+skyline.groupSize                                         5767109    1533083  0.27     0.2644      
+scale(location.halfDF)                            0.615   961421     110674   0.12     0.2366      
+scale(location.diffusion.rates)                   0.131   28841462   6913268  0.24     0.2401      
+uniform(age(DQ431711WG251_Hs_2004))                       961655     1175765  1.22     0.7008      
+uniform(age(DQ431700WG213_Hs_2004))                       961192     252484   0.26     0.6242      
+uniform(age(DQ431695WG082_Hs_2003))                       961349     242411   0.25     0.6723      
+uniform(age(DQ164204_Bj_2003))                            961379     1193545  1.24     0.7585      
+uniform(age(DQ164203_Ph_2003))                            961660     240280   0.25     0.7649      
+uniform(age(DQ164206_Cc_2004))                            960835     223629   0.23     0.8546      
+uniform(age(DQ164201_Hs_2004))                            962159     276486   0.29     0.5677      
+uniform(age(AY712945_Zm_2003))                            960723     230519   0.24     0.3392      
+uniform(age(AY712946_Cc_2003))                            961154     231673   0.24     0.6535      
+uniform(age(AY712948_Cq_2003))                            962196     231478   0.24     0.6615      
+uniform(age(AY712947_Cc_2003))                            960517     226315   0.24     0.7023      
+uniform(age(DQ164199_Hs_2003))                            959762     240968   0.25     0.7049      
+uniform(age(DQ080061_Ccs_2004))                           959977     219252   0.23     0.8435      
+uniform(age(DQ164186_Cb_2002))                            961813     221310   0.23     0.6914      
+uniform(age(DQ164187_Cb_2002))                            960886     205088   0.21     0.7507      
+uniform(age(DQ164193_Cb_2002))                            962116     242069   0.25     0.6974      
+uniform(age(DQ164195_Cx_2002))                            961850     220538   0.23     0.6607      
+uniform(age(DQ164196_Hs_2002))                            962963     241891   0.25     0.675       
+uniform(age(DQ164197_Hs_2002))                            962305     242149   0.25     0.4998      
+uniform(age(DQ164202_Hs_2002))                            961712     1243915  1.29     0.714       
+uniform(age(DQ164200_Hs_2002))                            961195     221480   0.23     0.6769      
+uniform(age(DQ164198_Hs_2002))                            962999     243039   0.25     0.6159      
+uniform(age(DQ164205_Hs_2002))                            959643     241623   0.25     0.6081      
+uniform(age(DQ164188_Cb_2003))                            961805     1164784  1.21     0.541       
+uniform(age(DQ164189_Cb_2003))                            962740     221983   0.23     0.7149      
+uniform(age(DQ164190_Cb_2003))                            961147     219752   0.23     0.7749      
+uniform(age(DQ164191_Cb_2003))                            962422     1220307  1.27     0.5894      
+uniform(age(DQ164192_Cb_2003))                            961950     204811   0.21     0.6871      
+uniform(age(DQ164194_Cb_2001))                            961094     199131   0.21     0.6622      
+uniform(age(DQ080072_Dc_2001))                            964550     1168564  1.21     0.2301      
+uniform(age(DQ080071_Ec_2002))                            961572     221103   0.23     0.6897      
+uniform(age(AY795965_Hs_2002))                            961860     221628   0.23     0.776       
+uniform(age(DQ005530_Hs_2003))                            960971     234160   0.24     0.3634      
+uniform(age(DQ666448_Hs_2004))                            962298     272539   0.28     0.747       
+uniform(age(DQ666449_Hs_2005))                            961664     269218   0.28     0.571       
+uniform(age(DQ666450_Hs_2005))                            960719     238727   0.25     0.8722      
+uniform(age(DQ666451_Hs_2005))                            961294     272407   0.28     0.8158      
+uniform(age(DQ666452_Hs_2005))                            961197     242056   0.25     0.8661      
+uniform(age(AY646354_Hs_2002))                            961190     1125095  1.17     0.7293      
+uniform(age(AF404756_Cb_2000))                            959713     200944   0.21     0.5986      
+uniform(age(AF404755_Bu_2000))                            963257     206350   0.21     0.5813      
+uniform(age(AF404754_Cp_2000))                            961985     1240925  1.29     0.5157      
+uniform(age(AF404753_Cb_2000))                            960688     202974   0.21     0.5869      
+uniform(age(AF260967_Ec_1999))                            962800     193080   0.2      0.6397      
+uniform(age(FJ151394_Cb_1999))                            961954     1092536  1.14     0.5928      
+uniform(age(DQ983578_Cn_2003))                            961045     208161   0.22     0.7799      
+uniform(age(DQ176637_Qq_2002))                            962682     1312816  1.36     0.6171      
+uniform(age(DQ080060_Cc_2004))                            960426     242931   0.25     0.7072      
+uniform(age(DQ080062_Cx_2002))                            961453     220273   0.23     0.7226      
+uniform(age(DQ080063_Cl_2003))                            963930     266954   0.28     0.6498      
+uniform(age(DQ080064_Fa_2003))                            960627     1304835  1.36     0.3208      
+uniform(age(DQ080065_Qq_2003))                            961941     265992   0.28     0.576       
+uniform(age(DQ080066_Px_2003))                            960347     267780   0.28     0.3577      
+uniform(age(DQ080067_Bvs_2003))                           960629     2257370  2.35     0.5482      
+uniform(age(DQ080068_Ah_2003))                            962059     266563   0.28     0.3087      
+uniform(age(DQ080069_Ec_2003))                            963379     255232   0.26     0.6749      
+uniform(age(DQ080070_Qq_2003))                            961184     267993   0.28     0.5049      
+uniform(age(DQ080051_Ct_2003))                            959611     1318469  1.37     0.5646      
+uniform(age(DQ080052_Ct_2003))                            962965     272671   0.28     0.6603      
+uniform(age(DQ080053_Ct_2003))                            962167     269813   0.28     0.6556      
+uniform(age(DQ080054_Cq_2003))                            960209     255720   0.27     0.6537      
+uniform(age(DQ080055_Ct_2003))                            963288     247770   0.26     0.6644      
+uniform(age(DQ080056_Ct_2003))                            960143     250094   0.26     0.5457      
+uniform(age(DQ080057_Cb_2003))                            962544     250386   0.26     0.6723      
+uniform(age(DQ080058_Cb_2003))                            960193     249609   0.26     0.629       
+uniform(age(DQ080059_Pn_2003))                            961969     249451   0.26     0.2786      
+precisionGibbsOperator                                    1924477    325790   0.17     1.0         
+
