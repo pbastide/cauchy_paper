@@ -1,18 +1,11 @@
-# Copyright (C) {2023} {PB, GD}
-#
-# This program is free software; you can redistribute it and/or modify
-# it under the terms of the GNU General Public License as published by
-# the Free Software Foundation; either version 3 of the License, or
-# any later version.
-#
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-# GNU General Public License for more details.
-#
-# You should have received a copy of the GNU General Public License along
-# with this program; if not, write to the Free Software Foundation, Inc.,
-# 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+# cauchy_paper by PB, GD
+#   
+# To the extent possible under law, the person who associated CC0 with
+# cauchy_paper has waived all copyright and related or neighboring rights
+# to cauchy_paper.
+# 
+# You should have received a copy of the CC0 legal code along with this
+# work. If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 
 # Program to re-analyse the data from:
 # PYBUS, Oliver G., SUCHARD, Marc A., LEMEY, Philippe, BERNARDIN, F. J., RAMBAUT, Andrew, CRAWFORD, F. W., GRAY, R. R., ARINAMINPATHY, N., STRAMER, S. L., BUSCH, M. P. y DELWART, E. L.. Unifying the spatial epidemiology and molecular evolution of emerging epidemics. 2012, 15066–15071. (109). ISSN: 0027-8424.ISBN: 1091-6490. 
