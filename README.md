@@ -17,8 +17,17 @@ Please see the header of each file for a more detailed description of each scrip
   * `Pybus_et_al_2012_Data`: data, `xml` analysis scripts and results to reproduce the study of Pybus et al. 2012, using beast tutorial (https://beast.community/workshop_continuous_diffusion_wnv)
 
 * `results`: saved results from the `R_scripts`.
-  * `2023-03-14_lizards_model_selection.rda`: results from script `R_scripts/simulations_models.R`.
-  * `2023-03-23_simulations_paramters.rda`: results from script `R_scripts/simulations_parameters.R`.
+  * `2023-03-14_lizards_model_selection.rda`: results from script `R_scripts/simulations_models.R`. Contains:
+    * `alldat`: a list with all simulated trait values.
+    * `phy`: a `phylo` object with the normalized lizard tree used in simulations.
+    * `resAll`: a data frame with the results of all analyses on all datasets.
+    * `params_BM`, `params_EB`, `params_OU`, `a`, `all_alpha_NIG`, `all_delta_NIG`, `all_sigma_noise`, `alpha_1_all`, `alpha_OU`, `beta_NIG`, `datestamp`, `delta_1`, `disp_cau`, `ex_kurt`, `mad_EB`, `mado`, `models`, `mu`, `Ncores`, `Nrep`, `r_EB`, `reqpckg`, `results_directory`, `sigma_BM`, `sigma_EB`, `sigma_OU`, `sim_models`, `t_12_OU`, `var_EB`, `vari`: parameter vectors used in the simulations.
+    * `git_all_models`, `fit_phylolm`, `fit_phylolm_all`, `model_nig`, `sim_model_fun`: instrumental simulation and fitting functions.
+  * `2023-03-23_simulations_paramters.rda`: results from script `R_scripts/simulations_parameters.R`. Contains:
+    * `all_sims`: a list with all simulated trees and trait values.
+    * `res`: a data frame with the results of all analyses on all datasets.
+    * `all_disp_cau`, `all_init`, `all_lambda`, `all_methods`, `all_models`, `all_n_tips`, `datestamp`, `Ncores`, `Nrep`, `reqpckg`, `result_directory`, `values_root`: parameter vectors used in the simulations.
+    * `fit_params`, `get_name`, `get_params`, `sim`: instrumental simulation and fitting functions.
 
 ## Requirements
 
