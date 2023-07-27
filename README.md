@@ -17,7 +17,7 @@ Please see the header of each file for a more detailed description of each scrip
   * `Pybus_et_al_2012_Data`: data, `xml` analysis scripts and results to reproduce the study of Pybus et al. 2012, using beast tutorial (https://beast.community/workshop_continuous_diffusion_wnv)
 
 * `results`: saved results from the `R_scripts`.
-  * `2023-03-14_lizards_model_selection.rda`: results from script `R_scripts/simulations_models.R`. Contains:
+  * `2023-07-25_lizards_model_selection.rda`: results from script `R_scripts/simulations_models.R`. Contains:
     * `alldat`: a list with all simulated trait values.
     * `phy`: a `phylo` object with the normalized lizard tree used in simulations.
     * `resAll`: a data frame with the results of all analyses on all datasets.
